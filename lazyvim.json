@@ -5,6 +5,7 @@
     "lazyvim.plugins.extras.editor.mini-files",
     "lazyvim.plugins.extras.lang.git",
     "lazyvim.plugins.extras.lang.python",
+    "lazyvim.plugins.extras.ui.treesitter-context",
     "lazyvim.plugins.extras.util.gitui"
   ],
   "install_version": 8,
