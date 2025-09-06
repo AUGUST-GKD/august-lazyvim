@@ -35,10 +35,10 @@ keymap.set("n", "<M-Left>", "<cmd>bprevious<CR>")
 
 keymap.set("n", ";", ":")
 
-keymap.set("n", "L", "$")
-keymap.set("v", "L", "$")
-keymap.set("n", "H", "^")
-keymap.set("v", "H", "^")
+keymap.set({ "n", "v", "o" }, "L", "$")
+-- keymap.set("v", "L", "$")
+-- keymap.set("n", "H", "^")
+keymap.set({ "n", "v", "o" }, "H", "^")
 
 keymap.set("n", "<leader>nv", ":Navbuddy<CR>")
 keymap.set("t", "<ESC>", "<C-\\><C-n>")
