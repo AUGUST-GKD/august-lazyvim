@@ -131,6 +131,13 @@ return {
           "-interaction=nonstopmode",
         },
       }
+      vim.g.vimtex_clean_methods = {
+        clean = { { "latexmk", "-c" } }, -- \lc
+        clean_full = {
+          { "latexmk", "-C" }, -- 官方 -C
+          { "rm", "-f", "*.nav", "*.snm", "*.vtc", "*.bbl" },
+        },
+      }
     end,
     -- 仅在编辑 tex/latex 文件时加载
     ft = { "tex", "latex" },
