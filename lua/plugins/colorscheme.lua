@@ -10,7 +10,11 @@ return {
         colors.error = "#ff0000"
         colors.bg_visual = "#6272af"
       end,
-      -- on_highlights = function(hl, c) end,
+      on_highlights = function(hl)
+        hl.DiagnosticUnnecessary = {
+          fg = "#8b92b5", -- 或直接去掉特殊颜色
+        }
+      end,
     },
   },
 
