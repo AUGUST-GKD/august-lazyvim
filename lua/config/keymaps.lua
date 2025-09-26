@@ -40,7 +40,7 @@ keymap.set({ "n", "v", "o" }, "L", "$")
 -- keymap.set("n", "H", "^")
 keymap.set({ "n", "v", "o" }, "H", "^")
 
-keymap.set("n", "<leader>nv", ":Navbuddy<CR>")
+-- keymap.set("n", "<leader>nv", ":Navbuddy<CR>")
 keymap.set("t", "<ESC>", "<C-\\><C-n>")
 keymap.set("t", "[", "<Up>")
 keymap.set("t", "]", "<Down>")
